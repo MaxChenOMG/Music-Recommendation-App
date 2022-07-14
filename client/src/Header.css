@@ -1,0 +1,23 @@
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(169, 203, 223);
+    color: rgb(0, 0, 0);
+  }
+
+.Header-Subtitle {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(169, 203, 223);
+    color: rgb(22, 88, 187);
+}

@@ -1,0 +1,20 @@
+FINAL PRODUCT: We realized the free version of the Weather API we were using only accepts location as
+parameters so we were only able to have Location as an input field. However, this location field finds
+the weather, so it still generates music based on the weather of the location you are in. The inclusion
+of personalization in music generation with the consideration of past preferences (liked songs) is an 
+area we would love to develop in the future.
+
+
+As a user, I want the system to recommend a playlist based on the following input information:
+(1) Weather
+(2) Location
+(3) Past preferences (liked songs, etc)
+
+The purpose of this web application is to generate a playlist of songs based on the weather and your location.
+The user will first be prompted to input their location and the weather. This will be the basis from which 
+the playlist is generated. If it is snowing in December, it will generate christmas music, if you are at a beach,
+it will generate songs appropriate for the occasion. The application will generate one playlist and the user will have 
+an option to look at each individual song and have the option to delete a song if it is not to their liking. 
+Furthermore, the user will be given the opportunity to generate another playlist through a prompt that will 
+appear on the view if they choose to do so. With the ability to like songs, the application will take into 
+account what songs you like when generating the playlist. 

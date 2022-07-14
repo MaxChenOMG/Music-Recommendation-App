@@ -1,0 +1,38 @@
+
+Project idea #1: 
+
+An application that generates a playlist (Spotify API) based on the weather, location, and time information (Microweather API). For example, around Christmas
+time it will generate Christmas themed playlists while if its 90F in July it will generate a beach playlist. 
+
+API for accessing weather: https://m3o.com/weather/overview 
+
+API for accessing spotify: https://developer.spotify.com/documentation/web-api/
+
+
+
+Project idea #2:
+Idea: Extract repertoire or playlist from recent concerts, recital such as BSO, Boston Pop, Musical events, and generate the corresponding playlist for Spotify users. 
+
+The Spotify API web link:
+https://developer.spotify.com/documentation/web-api/
+
+The API to extract data from music events:
+https://www.songkick.com/developer/getting-started
+
+
+
+Project idea #3:
+an application that retrieves news articles from sources like CNN, New York Times, and BBC, and then summarizes them into a few sentences for the end user.
+
+API for accessing news articles and blogs from thousands of sources by MediaStack:
+https://mediastack.com/
+
+API for an AI that summarizes paragraphs into a few sentences by OpenAI.
+https://beta.openai.com/examples/default-tldr-summary
+
+Challenge 1: the MediaStack news API returns an URL to the news article (instead of text) and we'll have to find a way to import 
+the actual article from the URL without importing garbage data like ads and UI texts. The alternative is to find another API that returns 
+the article in plain text instead of an URL.
+Challenge 2: The quality of summary by OpenAI might be subpar (compared to humans) - to be tested
+
+Some other news APIs are listed here: https://github.com/public-apis/public-apis#news

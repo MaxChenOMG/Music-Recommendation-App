@@ -1,0 +1,19 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="query weather">
+    <form method="POST" action="/recommend">
+        <input placeholder="City/ZIP" id="location", name="location" required>
+        <select id="units">
+        <option value="f">Fahrenheit</option><option value="m">Celcius</option>
+        </select>
+        <button>Get Weather and Recommend Playlists!</button><br>
+    </form>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>

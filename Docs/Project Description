@@ -1,0 +1,7 @@
+An application that generates a playlist based on the weather, time and location of the user. For example, if it's above 80F and a beach 
+town then it will generate a beach playlist. If it's December then it will generate Christmas playlists. 
+
+API for accessing weather: https://m3o.com/weather/overview 
+
+API for accessing spotify: https://developer.spotify.com/documentation/web-api/
+

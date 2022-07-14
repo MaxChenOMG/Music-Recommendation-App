@@ -1,0 +1,17 @@
+FINAL PRODUCT: We ended up only including a portion of the weather data we originally intended on 
+having because we were given limited function calls in the free version of the weather API. Info we
+were able to include were temperature, humidity, cloud coverage, and an overall weather description. 
+As for verification, the weather API handles a lot of it so we were able to leverage that instead of
+implementing it ourselves.
+
+
+User Story: As a user I want to be able to be able to check the weather so 
+that I know details like the temperature and humidity for the specified location.  
+
+Description: I want to be able to see the details of the weather including 
+percent chance of precipitation, heat index, temperature, uv index, and the 
+wind so that I know what to expect for the day. The temperature will have 
+the option of being shown in both Fahrenheit and Celsius. Some things that 
+could go wrong is if I insert a nonexistent location or misspell a city name. 
+If an invalid input is entered then the system will prompt me to check my spelling 
+and re-input a valid location. 

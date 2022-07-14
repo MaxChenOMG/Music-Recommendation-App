@@ -1,0 +1,13 @@
+We've chosen Express.js on top of Node.js as the backend framework and EJS as the front end template.
+
+We went for Express & Node.js because
+(1) it is one of the most popular backend frameworks (has a large community and a plethora of libraries),
+and (2) it is based on JavaScript, so the team members get to learn a new language.
+We chose it over Django because it is not as popular (debatable) and most of us know Python already.
+
+We went for EJS because it gets the job done and is easy to use (uses plain JS, no need for additional 
+scripting/markup languages to complicate the codebase).
+
+For the database we decided to go with MongoDB because we needed a document based database and MongoDB provides 
+the scalability that we want for a longterm project. Another benefit is that it has a flexible schema
+and doesn't require a lot of configuration. 

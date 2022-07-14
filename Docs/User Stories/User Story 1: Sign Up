@@ -1,0 +1,22 @@
+User Story: As a new user, I want to be able to create an account.
+
+Description: 
+When I am creating the account, I need to specify my:
+  (1) username (for logging in) - should only contain alphanumericals, spaces (though no consecutive spaces), and special characters
+  (2) email address - should end with a valid domain suffix
+  (3) nickname (for display)
+  (4) full name (optional)
+  (5) password - should only contain alphanumeric and special characters.
+  (6) confirmed password
+If any of the above information is invalid, the system will not allow you to register, and will tell you which field is invalid and why it is invalid.
+After I go back and correct them, I should be able to register successfully.
+The system should record all the user information, encrypt the password, and store them in the backend database.
+After the successful registration I will be taken to the main/home page of the application.
+
+Optional: send the user an email, asking him/her to confirm the email address so that it could be used for password recovery.
+
+
+FINAL PRODUCT: Because we are letting Spotify OAuth handle the authentication and authorization of users,
+we realized there was no need on our end to implement a signup/signin portion and rather let Spotify
+hande it. Aspects similar to our original user story will still be present but it would be accessed 
+through the Spotify api. 

@@ -1,0 +1,31 @@
+FINAL PRODUCT: Because we are letting Spotify OAuth handle the authentication and authorization of users,
+we realized there was no need on our end to implement a signup/signin portion and rather let Spotify
+hande it. Aspects similar to our original user story will still be present but it would be accessed 
+through the Spotify api. FINAL PRODUCT: 
+
+As a webapp and the Spotify user, I would like to sign in to the web-app and the spotify account, so that the spotify playlist generated for me based on the data 
+collected from today's weather, my location, and the date, can be trasmitted to my spotify account.
+
+Description: 
+After Signing up, I would have the username and password for the web app. Once I enter the webpage, a sign-in in frame will pop out. If I type in the username and
+password correctly, it would take me to the page where I can use the app's feature to generate the playlist. If my username and password were wrong, If my username and 
+password are incorrect, then the web app will warn my to try again. there will also be a clickable "forget the password“ option, where it would lead me to reset my password.
+
+Once the app has created the playlist, it will be transmitted to my spotify account and then I'll be able to viewed it on spotify. 
+
+Once the app has created the playlist, the system would asked me which spotify account would I like the playlist to be sent to. It will then pop out
+a type-in box where you would type in your spotify user name. If the spotify user name entered is valid, then move on to the next step. If not, the app will warn me
+that the info you entered was invalid, and try again.
+
+Now if my username has been accepted by the type-in box. Then a spotify sign-in frame will pop-out, it is where I sign in to spotify with your username and 
+password. Once I enter the username and password (sometimes a not-a-robot check is also requied), then I have successfully logged in to the spotify account. 
+At this step, spotify may need to run a authentication check to make sure I am the spotify account's owner, this is done by the spotify end. If my username and 
+password are incorrect, then the spotify will warn my to try again.
+
+If I happened forgetting the password, there will also be a clickable "forget the password“ option, where it would lead me to reset my password.
+
+If I followed the previous step correctly, then I should have succesfully loggin in with my spotify account. Then I will be also to proceed to send the playlist
+generated previously to my spotify account. A green spotify icon will pop out on the right corner of the screen
+
+When I'm done with the app, and no longer want to use it. I can logout my spotify account by clicking on the green spotify icon where it will display a logout
+button. I can log out by clicking on that button.

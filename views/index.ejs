@@ -1,0 +1,46 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="playlist search"></div>
+    <h2>Playlist Generator</h2>
+
+    <form action="/playlist" method="POST">
+      What type of music do you want to listen to?
+      <input type="text" name="genre">
+      <button>Search</button>
+    </form>
+  </div>
+
+  <br>
+
+  <div class="recommend playlists"></div>
+    <h2>Recommend Playlists</h2>
+    <p>We will recommend playlists based on your geographical location and weather.</p>
+    <button><a href="/recommend" class="button">Recommend playlists for me!</a></button>
+  </div>
+
+  <br><br><br>
+
+  <div class="news">
+    <h2>Music News</h2>
+
+    <% if (news.length > 0) { %>
+      <% news.forEach(post => { %>
+
+        <h3 class="title"><%= post.title %></h3>
+        <p class="snippet"><%= post.snippet %></p>
+        <br>
+
+      <% }) %>
+    <% } else { %>
+      <p>There are no news to display...</p>
+    <% } %>
+    
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>

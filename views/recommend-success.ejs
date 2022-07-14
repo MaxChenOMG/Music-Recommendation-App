@@ -1,0 +1,37 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <h2>Your Location:</h2>
+
+  <p>Region: <%= results.location.name %>, <%= results.location.region %>, <%= results.location.country %></p>
+  <p>Latitude and Longitude: <%= results.location.lat %>, <%= results.location.lon %></p>
+  <p>Local Time: <%= results.location.localtime %></p>
+
+  <br>
+
+  <h2>Your Weather:</h2>
+  <img src= <%= results.current.weather_icons[0] %>>
+  <p>Overveiw: <%= results.current.weather_descriptions[0] %></p>
+  <p>Temperature: <%= results.current.temperature %></p>
+  <p>Humidity: <%= results.current.humidity %></p>
+  <p>Cloud Cover: <%= results.current.cloudcover %></p>
+
+  <br>
+
+  <h2>Based on the your weather information, we recommend the following playlists:</h2>
+
+  <% if (spotify_data.length > 0) { %>
+    <% spotify_data.forEach((playlist, index) => { %>
+      <h4 class="name"><%= index+1 %>. Name: <%= playlist[0] %></h4>
+      <p class='creator'>Creator: <%= playlist[1] %> - <button><a href=<%= playlist[2] %>>Link to playlist</a></button> </p>
+    <% }) %>
+  <% } else { %>
+    <p>Didn't find any playlists. Try again!</p>
+  <% } %>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
