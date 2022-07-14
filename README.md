@@ -1,4 +1,4 @@
-# CS411 Project - WeatherSpot
+# WeatherSpot
 
 A website that recommends Spotify playlists based on your geographical location and weather.
 
